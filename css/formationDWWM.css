@@ -1,0 +1,51 @@
+.formation{
+    background-color: #FA625E;
+    width: 900px;;
+    height: 80px;
+    margin: 16px auto;
+    border-radius: 44px;
+    text-align: center;
+}
+
+.formation .title{
+    font-size: 40px;
+    font-family: "Imprima";
+    padding-right: 25px;
+
+}
+
+/* SECTION */
+section{
+    display: flex;
+}
+.metier{
+    background-color: #FA625E;
+    width: 605px;
+    height: 552px;
+    margin: 16px auto;
+    border-radius: 27px;
+}
+
+.modalite{
+    background-color: #FA625E;
+    width: 605px;
+    height: 552px;
+    margin: 122px auto;
+    border-radius: 27px;
+}
+
+h1, h2{
+    font-size: 20px;
+    font-family: "Imprima";
+    padding-top: 16px;
+    padding-left: 23px;
+
+}
+
+p{
+    font-family: "InriaSans";
+    font-size: 20px;
+    color: white;
+    padding-left: 23px;
+
+}

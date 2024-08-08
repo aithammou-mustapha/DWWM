@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./SiteDWWM/Images/favicon.ico">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>NOUS CONTACTER</title>
+    </head>
+    <body>       
+        <header>        
+
+            <img src="./SiteDWWM/Images/logo.jpeg" alt="AFPA" title="AFPA">
+
+            <nav>
+                <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="formationDWWM.html">la formation</a></li>
+                <li><a href="temoignages.html">Témoignages</a></li>
+                <li><a href="references.html">Nos références</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="title">
+            <h1>NOUS CONTACTER</h1>
+        </div>
+
+        <section>
+            <h1>veuillez entrez vos informations</h1>
+            <form method="get" action="">
+
+                <label for="prenom_nom" >Prénom nom</label>
+                <input type="text" name="prenom_nom" id="prenom_nom" required = "required" placeholder="John Doe">
+                <br />
+                
+                <label for="email">Votre adresse mail</label>
+                <input type="email" name="email" id="email" required = "required" placeholder = "monadresse@gmail.com">
+                <br />
+
+                <label for="num_telephone">Votre téléphone</label>
+                <input type="text" name="num_telephone" id="num_telephone" required = "required" placeholder="06 07 08 09 10">
+                <br />
+
+                <label>Vous êtes</label>
+                <br />
+                
+                <input type="radio" name="situation_pro" value="situation_pro1" id="situation_pro1" checked="checked">
+                <label for="situation_pro1">Demandeur d'emploi</label>
+                <br />
+
+                <input type="radio" name="situation_pro" value="situation_pro2" id="situation_pro2">
+                <label for="situation_pro2">Salarié en transition pro</label>
+                <br />
+
+                <input type="radio" name="situation_pro" value="situation_pro3" id="situation_pro3">
+                <label for="situation_pro3">Autre</label>
+                <br />
+
+
+                <label>Vos modalités pédagogique préférées</label>
+                <br />
+                
+                <input type="radio" name="pedagogique" value="pedagogique1" id="pedagogique1" checked="checked">
+                <label for="pedagogique1">Formation en présentiel</label>
+                <br />
+
+                <input type="radio" name="pedagogique" value="pedagogique2" id="pedagogique2">
+                <label for="pedagogique2">100%Distance</label>
+                <br />
+                
+                <input type="radio" name="pedagogique" value="pedagogique3" id="pedagogique3">
+                <label for="pedagogique3">Alternance</label>
+                <br />
+
+                <input type="radio" name="pedagogique" value="pedagogique4" id="pedagogique4">
+                <label for="pedagogique4">Pas de préférence</label>
+                <br />
+
+
+                <label for="region">Vous êtes résident de la région</label>
+                <select name="region" id="region">
+                    <option value="">Choisissez votre région</option>
+                    <option value="Auvergne-Rhône-Alpes">01 - Auvergne-Rhône-Alpes</option>
+                    <option value="Bourgogne-Franche-Comté">02 - Bourgogne-Franche-Comté</option>
+                    <option value="Bretagne">03 - Bretagne</option>
+                </select>
+                <br />
+
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                <br />
+
+                <input type="submit" value="Envoyer">
+
+            </form>   
+        </section>
+
+        
+    </body>

@@ -1,0 +1,51 @@
+.Accueil{
+    background-color: #FA625E;
+    width: 340px;
+    height: 85px;
+    margin: 16px auto;
+    border-radius: 44px;
+    text-align: center;
+}
+
+/* SECTION */
+section{
+    background-color: #FA625E;
+    width: 786px;
+    height: 570px;
+    margin: 122px auto;
+    border-radius: 27px;
+    text-align: center;
+}
+
+h1, h2{
+    font-size: 40px;
+    font-family: "Imprima";
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 16px;
+
+}
+
+p{
+    font-family: "InriaSans";
+    font-size: 36px;
+    color: white;
+    padding: 50px;
+
+}
+
+section p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+section p a:hover{
+    cursor: pointer;
+    color: #FA625E;
+
+}
+

@@ -1,0 +1,38 @@
+.title{
+    background-color: #FA625E;
+    width: 420px;
+    height: 85px;
+    margin: 16px auto;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Imprima";
+    padding-top: 16px;
+}
+
+
+p{
+    font-family: "InriaSans";
+    font-size: 36px;
+    color: white;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+
+/* SECTION */
+section{
+    background-color: #FA625E;
+    width: 786px;
+    height: 570px;
+    margin: 122px auto;
+    border-radius: 27px;
+    text-align: center;
+}
+
+section img{
+    width: 186px;
+    margin-top: 35px;
+}
+
